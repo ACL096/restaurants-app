@@ -1,0 +1,64 @@
+body {
+  background-color: #F5F5DC;
+  font-family: 'Roboto';
+  color: #000000;
+}
+
+h2 {
+  color: #990F02;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+input,
+textarea {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.restaurant-card {
+  border: none;
+  border-radius: 15px;
+  overflow: hidden;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.restaurant-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+.custom-title {
+  text-align: right;
+  background-color: #000000;  
+  color: #FFFFFF;            
+  padding: 12px 24px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  font-weight: 600;
+  font-size: 1.8rem;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.custom-navbar {
+  background-color: #D2042D !important; 
+  font-family: 'Monstserrat',;
+}
+
+.custom-navbar .navbar-brand,
+.custom-navbar .nav-link {
+  color: #FFFDD0 !important;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.custom-navbar .nav-link:hover {
+  color: #91082a !important; 
+}
+
+.custom-navbar .navbar-nav {
+  margin-left: auto;
+}
